@@ -25,6 +25,7 @@ build/Release
 
 # Dependency directory
 node_modules
+1234
 **/node_modules
 
 # Optional npm cache directory
