@@ -1,0 +1,12 @@
+{
+  "name": "karma-ng-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+        "postinstall": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm install ; ) ;done "  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}
