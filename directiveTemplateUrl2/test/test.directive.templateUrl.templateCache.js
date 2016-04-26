@@ -7,8 +7,6 @@ describe('menuDirective', function() {
   
   beforeEach(angular.mock.module('ngMockE2E'));
 
-  beforeEach(preloadTemplate('/templates/menu.html'));
-
   beforeEach(inject(function ($rootScope) {
       scope = $rootScope.$new();
     }));
@@ -17,6 +15,9 @@ describe('menuDirective', function() {
     element = angular.element('<system></system>');
     compiledElement = $compile(element)(scope); 
 
+    // APP - app.js used templates dependency which loads template
+    // into templateCache
+    // TEST - this test pulls template from templateCache 
     template = $templateCache.get('/templates/system.html'); 
  
     scope.$digest();

@@ -19,10 +19,8 @@ module.exports = function(config) {
       'https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js',
       // For ngMockE2E
       'https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-mocks.js',
-      'test/karma-utils.js',
       'test/test.directive.*.js',
-      'public/app.js',
-      'public/templates/*.html'
+      'public/app.js'
     ],
 
 
