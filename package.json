@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-        "postinstall": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm install > installResults.log ; ) ;done ",
-        "buildappjs": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm build > buildResults.log ; ) ; done ",
-        "runalltests": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm test > testResults.log ; ) ; done "
+        "postinstall": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm install > installResults.log 2>&1 ; ) ;done ",
+        "buildappjs": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm run-script build > buildResults.log 2>&1; ) ; done ",
+        "runalltests": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm test > testResults.log 2>&1; ) ; done "
   },
   "author": "",
   "license": "ISC",
