@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-        "postinstall": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm install ; ) ;done "  },
+        "postinstall": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm install ; ) ;done ",
+        "runalltests": "for dir in */ ;  do echo \"$dir\"; ( cd \"$dir\" ; npm test > testResults.log ; ) ; done "
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {

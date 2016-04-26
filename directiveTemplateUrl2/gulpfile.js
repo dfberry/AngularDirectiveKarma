@@ -23,4 +23,4 @@ gulp.task('templates', function () {
 });
 
 
-gulp.task('client-build',['templates', 'browserify']);
+gulp.task('build',['templates', 'browserify']);

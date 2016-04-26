@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/karma/bin/karma start karma.conf.js"
+    "test": "node_modules/karma/bin/karma start karma.conf.js",
+    "build": "node_modules/gulp/bin/gulp.js build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "add-stream": "^1.0.0",
     "bluebird": "^3.3.5",
     "brfs": "^1.4.3",
     "browserify": "^13.0.0",
@@ -29,6 +31,7 @@
     "karma-phantomjs-launcher": "^1.0.0",
     "mocha": "^2.4.5",
     "phantomjs-prebuilt": "^2.1.7",
+    "underscore": "^1.8.3",
     "watchify": "^3.7.0"
   }
 }
