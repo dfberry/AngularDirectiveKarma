@@ -2,11 +2,6 @@
 exports.menuController = function ($scope) {
 
     $scope.data = "menu";
-
-    setTimeout(function () {
-        $scope.$emit('menuController');
-    }, 0);
-
 };
 },{}],2:[function(require,module,exports){
 exports.menu = function() {
