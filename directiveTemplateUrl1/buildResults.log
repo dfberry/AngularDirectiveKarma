@@ -1,0 +1,7 @@
+
+> karma-ng-mocha@1.0.0 build /home/dina/repos/AngularDirectiveKarma/directiveTemplateUrl1
+> node_modules/gulp/bin/gulp.js build
+
+[08:57:12] Using gulpfile ~/repos/AngularDirectiveKarma/directiveTemplateUrl1/gulpfile.js
+[08:57:12] Starting 'build'...
+[08:57:13] Finished 'build' after 993 ms
