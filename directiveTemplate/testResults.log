@@ -1,53 +1,53 @@
 
-> karma-ng-mocha@1.0.0 test /home/dina/repos/AngularDirectiveKarma/directiveTemplate
+> directiveTemplate@1.0.0 test /home/dina/repos/AngularDirectiveKarma/directiveTemplate
 > node_modules/karma/bin/karma start karma.conf.js
 
-[36m26 04 2016 08:57:58.740:DEBUG [plugin]: [39mLoading karma-* from /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules
-[36m26 04 2016 08:57:58.747:DEBUG [plugin]: [39mLoading plugin /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-chai.
-[36m26 04 2016 08:57:58.751:DEBUG [plugin]: [39mLoading plugin /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-chai-plugins.
-[36m26 04 2016 08:57:58.755:DEBUG [plugin]: [39mLoading plugin /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-mocha.
-[36m26 04 2016 08:57:58.757:DEBUG [plugin]: [39mLoading plugin /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-phantomjs-launcher.
-[32m26 04 2016 08:57:58.867:INFO [karma]: [39mKarma v0.13.22 server started at http://localhost:9876/
-[32m26 04 2016 08:57:58.878:INFO [launcher]: [39mStarting browser PhantomJS
-[36m26 04 2016 08:57:58.880:DEBUG [temp-dir]: [39mCreating temp dir at /tmp/karma-24353961
-[36m26 04 2016 08:57:58.887:DEBUG [launcher]: [39m/home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs /tmp/karma-24353961/capture.js
-[36m26 04 2016 08:57:58.985:DEBUG [web-server]: [39mserving: /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma/static/client.html
-[36m26 04 2016 08:57:59.006:DEBUG [web-server]: [39mserving: /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma/static/karma.js
-[36m26 04 2016 08:57:59.037:DEBUG [karma]: [39mA browser has connected on socket /#kmU_KwcsSuMsmTXfAAAA
-[36m26 04 2016 08:57:59.091:DEBUG [web-server]: [39mupgrade /socket.io/?EIO=3&transport=websocket&sid=kmU_KwcsSuMsmTXfAAAA
-[36m26 04 2016 08:57:59.094:DEBUG [proxy]: [39mNOT upgrading proxyWebSocketRequest /socket.io/?EIO=3&transport=websocket&sid=kmU_KwcsSuMsmTXfAAAA
-[32m26 04 2016 08:57:59.179:INFO [PhantomJS 2.1.1 (Linux 0.0.0)]: [39mConnected on socket /#kmU_KwcsSuMsmTXfAAAA with id 24353961
-[36m26 04 2016 08:57:59.182:DEBUG [launcher]: [39mPhantomJS (id 24353961) captured in 0.312 secs
-[36m26 04 2016 08:57:59.192:DEBUG [phantomjs.launcher]: [39m
+[36m26 04 2016 11:42:08.399:DEBUG [plugin]: [39mLoading karma-* from /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules
+[36m26 04 2016 11:42:08.404:DEBUG [plugin]: [39mLoading plugin /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-chai.
+[36m26 04 2016 11:42:08.408:DEBUG [plugin]: [39mLoading plugin /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-chai-plugins.
+[36m26 04 2016 11:42:08.414:DEBUG [plugin]: [39mLoading plugin /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-mocha.
+[36m26 04 2016 11:42:08.420:DEBUG [plugin]: [39mLoading plugin /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-phantomjs-launcher.
+[32m26 04 2016 11:42:08.568:INFO [karma]: [39mKarma v0.13.22 server started at http://localhost:9876/
+[32m26 04 2016 11:42:08.600:INFO [launcher]: [39mStarting browser PhantomJS
+[36m26 04 2016 11:42:08.604:DEBUG [temp-dir]: [39mCreating temp dir at /tmp/karma-91389759
+[36m26 04 2016 11:42:08.611:DEBUG [launcher]: [39m/home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs /tmp/karma-91389759/capture.js
+[36m26 04 2016 11:42:09.065:DEBUG [web-server]: [39mserving: /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma/static/client.html
+[36m26 04 2016 11:42:09.089:DEBUG [web-server]: [39mserving: /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma/static/karma.js
+[36m26 04 2016 11:42:09.155:DEBUG [karma]: [39mA browser has connected on socket /#gHUhmWZWjsDUo44sAAAA
+[36m26 04 2016 11:42:09.174:DEBUG [web-server]: [39mupgrade /socket.io/?EIO=3&transport=websocket&sid=gHUhmWZWjsDUo44sAAAA
+[36m26 04 2016 11:42:09.178:DEBUG [proxy]: [39mNOT upgrading proxyWebSocketRequest /socket.io/?EIO=3&transport=websocket&sid=gHUhmWZWjsDUo44sAAAA
+[32m26 04 2016 11:42:09.251:INFO [PhantomJS 2.1.1 (Linux 0.0.0)]: [39mConnected on socket /#gHUhmWZWjsDUo44sAAAA with id 91389759
+[36m26 04 2016 11:42:09.254:DEBUG [launcher]: [39mPhantomJS (id 91389759) captured in 0.684 secs
+[36m26 04 2016 11:42:09.267:DEBUG [phantomjs.launcher]: [39m
 
-[36m26 04 2016 08:57:59.200:DEBUG [web-server]: [39mserving: /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma/static/context.html
-[36m26 04 2016 08:57:59.209:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/chai/chai.js?ab7cf506d9d77c111c878b1e10b7f25348630760 /
-[36m26 04 2016 08:57:59.212:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/chai/chai.js
-[36m26 04 2016 08:57:59.214:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/karma-chai-plugins/chai-adapter.js?59e2c15b779f09a3f585e7a6ec1a810fbc83bcdc /
-[36m26 04 2016 08:57:59.214:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-chai-plugins/chai-adapter.js
-[36m26 04 2016 08:57:59.215:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/chai/chai.js
-[36m26 04 2016 08:57:59.223:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-chai-plugins/chai-adapter.js
-[36m26 04 2016 08:57:59.227:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/mocha/mocha.js?850a41c1571b8b60a69a80e154f26c7d2c55fbbd /
-[36m26 04 2016 08:57:59.232:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/mocha/mocha.js
-[36m26 04 2016 08:57:59.232:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/karma-mocha/lib/adapter.js?9112a0a88c794e8094a758094ffc9093543c3edd /
-[36m26 04 2016 08:57:59.232:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-mocha/lib/adapter.js
-[36m26 04 2016 08:57:59.236:DEBUG [middleware:source-files]: [39mRequesting /base/test/test.directive.template.js?8d824b4988817c5914b372f390a9589036e93776 /
-[36m26 04 2016 08:57:59.237:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/test/test.directive.template.js
-[36m26 04 2016 08:57:59.237:DEBUG [middleware:source-files]: [39mRequesting /base/public/app.js?6da99f7db89b4401f7fc5df6e04644e14cbed1f7 /
-[36m26 04 2016 08:57:59.237:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/public/app.js
-[36m26 04 2016 08:57:59.239:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/mocha/mocha.js
-[36m26 04 2016 08:57:59.250:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-mocha/lib/adapter.js
-[36m26 04 2016 08:57:59.257:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/test/test.directive.template.js
-[36m26 04 2016 08:57:59.260:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/public/app.js
+[36m26 04 2016 11:42:09.272:DEBUG [web-server]: [39mserving: /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma/static/context.html
+[36m26 04 2016 11:42:09.281:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/chai/chai.js?ab7cf506d9d77c111c878b1e10b7f25348630760 /
+[36m26 04 2016 11:42:09.284:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/chai/chai.js
+[36m26 04 2016 11:42:09.285:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/karma-chai-plugins/chai-adapter.js?59e2c15b779f09a3f585e7a6ec1a810fbc83bcdc /
+[36m26 04 2016 11:42:09.285:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-chai-plugins/chai-adapter.js
+[36m26 04 2016 11:42:09.290:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/chai/chai.js
+[36m26 04 2016 11:42:09.298:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-chai-plugins/chai-adapter.js
+[36m26 04 2016 11:42:09.300:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/mocha/mocha.js?850a41c1571b8b60a69a80e154f26c7d2c55fbbd /
+[36m26 04 2016 11:42:09.309:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/mocha/mocha.js
+[36m26 04 2016 11:42:09.312:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/karma-mocha/lib/adapter.js?9112a0a88c794e8094a758094ffc9093543c3edd /
+[36m26 04 2016 11:42:09.314:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-mocha/lib/adapter.js
+[36m26 04 2016 11:42:09.317:DEBUG [middleware:source-files]: [39mRequesting /base/test/test.directive.template.js?8d824b4988817c5914b372f390a9589036e93776 /
+[36m26 04 2016 11:42:09.318:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/test/test.directive.template.js
+[36m26 04 2016 11:42:09.318:DEBUG [middleware:source-files]: [39mRequesting /base/public/app.js?6da99f7db89b4401f7fc5df6e04644e14cbed1f7 /
+[36m26 04 2016 11:42:09.318:DEBUG [middleware:source-files]: [39mFetching /home/dina/repos/AngularDirectiveKarma/directiveTemplate/public/app.js
+[36m26 04 2016 11:42:09.319:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/mocha/mocha.js
+[36m26 04 2016 11:42:09.329:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/node_modules/karma-mocha/lib/adapter.js
+[36m26 04 2016 11:42:09.331:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/test/test.directive.template.js
+[36m26 04 2016 11:42:09.333:DEBUG [web-server]: [39mserving (cached): /home/dina/repos/AngularDirectiveKarma/directiveTemplate/public/app.js
 PhantomJS 2.1.1 (Linux 0.0.0): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
-[36m26 04 2016 08:57:59.468:DEBUG [phantomjs.launcher]: [39muser == user
+[36m26 04 2016 11:42:09.559:DEBUG [phantomjs.launcher]: [39muser == user
 
 [1A[2KLOG: 'user == user'
 PhantomJS 2.1.1 (Linux 0.0.0): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
 [1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 1 SUCCESS (0 secs / 0.014 secs)
-[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 1 SUCCESS (0.044 secs / 0.014 secs)
-[36m26 04 2016 08:57:59.497:DEBUG [karma]: [39mRun complete, exiting.
-[36m26 04 2016 08:57:59.501:DEBUG [launcher]: [39mDisconnecting all browsers
-[36m26 04 2016 08:57:59.509:DEBUG [launcher]: [39mProcess PhantomJS exited with code 0
-[36m26 04 2016 08:57:59.510:DEBUG [temp-dir]: [39mCleaning temp dir /tmp/karma-24353961
-[36m26 04 2016 08:57:59.519:DEBUG [launcher]: [39mFinished all browsers
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 1 SUCCESS (0.043 secs / 0.014 secs)
+[36m26 04 2016 11:42:09.578:DEBUG [karma]: [39mRun complete, exiting.
+[36m26 04 2016 11:42:09.580:DEBUG [launcher]: [39mDisconnecting all browsers
+[36m26 04 2016 11:42:09.588:DEBUG [launcher]: [39mProcess PhantomJS exited with code 0
+[36m26 04 2016 11:42:09.590:DEBUG [temp-dir]: [39mCleaning temp dir /tmp/karma-91389759
+[36m26 04 2016 11:42:09.598:DEBUG [launcher]: [39mFinished all browsers
